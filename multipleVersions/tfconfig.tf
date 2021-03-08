@@ -2,6 +2,7 @@ variable "tenancy_ocid" {}
 variable "compartment_ocid" {}
 variable "region" {}
 variable "display_name_prefix" {}
+variable "test_new_variable" {}
 terraform {
   required_version = ">= 0.12.0"
 }
